@@ -1,4 +1,4 @@
-#  GCNet: Global context-guided uncertainty boundary for polyp segmentation
+#  WS-Polyp: Improved Weak Semi-supervised with point teacher for polyp segmentation
 
 
 ##  Requirements
