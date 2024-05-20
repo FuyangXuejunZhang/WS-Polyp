@@ -44,16 +44,22 @@ Module (BEM).
 
 ### 3. Training
 
+###step1. Training teacher
 ```bash
-python train.py  --mode train  --dataset kvasir_SEG  
---train_data_dir /path  --valid_data_dir  /path
+python main.py  --train_per '50per'
+
 ```
+###step1. Training student via IFKD
+```bash
+python train_stu.py  --train_per '50per'
+
+```
+
 
 ###  4. Inference
 
 ```bash
 python test.py  --mode test  --load_ckpt checkpoint 
---dataset kvasir_SEG    --test_data_dir  /path
 ```
 ###  5. result
 <p align="center">
