@@ -23,7 +23,7 @@
 ### 2. Framework Overview
 
 <p align="center">
-    <img src="imgs/network.png"/> <br />
+    <img src="imgs/method.png"/> <br />
     <em> 
     Figure 2: Our proposed point-prompt teacher model (p-teacher).
     </em>
